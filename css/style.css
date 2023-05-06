@@ -1,3 +1,42 @@
 .body {
-    background-color: #E5E5E5;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+}
+
+.logo_next {
+  color: #2E2F42;
+}
+
+.logo {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.page_header {
+  font-family: "Roboto";
+  font-weight: 800;
+}
+/* footer */
+.footer_logo {
+  background-color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer_text {
+color: #f4f4fd;
+font-size: 16px;
+letter-spacing: 0.02em;
 }
