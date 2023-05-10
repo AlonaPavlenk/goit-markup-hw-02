@@ -134,6 +134,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
@@ -180,9 +181,8 @@ body {
 }
 
 .services-line {
-  background-color: #FFFFFF; 
+  background-color: #ffffff;
 }
-
 
 /* team */
 
@@ -208,6 +208,10 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.team-line {
+  background-color: #ffffff;
 }
 
 .team-text {
