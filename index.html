@@ -4,24 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=h, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"/>
     <title>Main Page</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- navigation -->
-    <header>
-      <nav class="page_header">
-        <a href="./index.html" class="Logo">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <header class="header">
+      <nav class="header-navigation">
+        <a href="./index.html" class="header-logo link">Web<span class="logo-page">Studio</span></a>
+        <ul class="heder-list list">
+          <li><a href="./index.html" class="header-link link">Studio</a></li>
+          <li><a href="./portfolio.html" class="header-link link">Portfolio</a></li>
+          <li><a href="" class="header-link link">Contacts</a></li>
         </ul>
       </nav>
       <!-- Contacts -->
-      <address>
-        <ul class="auth_nav">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="header-adress list">
+        <ul class="header-adress-list list">
+          <li><a href="mailto:info@devstudio.com" class="header-adress-link link">info@devstudio.com</a></li>
+          <li><a href="tel:+110001111111" class="header-adress-link link">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
@@ -29,11 +34,11 @@
       <!-- section 1 -->
       <section>
         <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+       <button type="button" class="interface-button">Order Service</button>
       </section>
       <!-- section 2-->
       <section>
-          <h2>...</h2>
+          <h2 hidden>...</h2>
           <ul>
             <li>
               <h3>Strategy</h3>
