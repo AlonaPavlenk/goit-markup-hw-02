@@ -60,6 +60,7 @@ body {
 }
 
 /* interface */
+
 .interface-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -111,6 +112,15 @@ body {
   color: #f4f4fd;
 }
 
+.footer-text {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #F4F4FD;
+}
+
 /* herou */
 
 .herou {
@@ -119,8 +129,11 @@ body {
   font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
-*color: #FFFFFF;
+background-color: #2e2f42;
+color:  #FFFFFF;;
 }
+
+/* strategy */
 
 .strategy-title {
   font-family: 'Roboto';
